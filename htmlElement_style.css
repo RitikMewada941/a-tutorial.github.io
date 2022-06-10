@@ -1,0 +1,10 @@
+div.htmlIntro{
+
+    background-color:rgba(0,0,0,0.5);
+    width:70%;
+   font-size:20px;
+   
+   border-radius: 30px;
+    border:1 px solid gainsboro;
+    color:whitesmoke;
+}

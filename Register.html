@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration Form</title>
+        <link rel="stylesheet" href="register_style.css" type="text/css">
+        <style type="text/css">
+            body{
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(book.jpg);
+            background-size:cover;
+            background-attachment:fixed;
+        }
+        .main ul{
+            float:right;
+            margin-top:25px;
+        }
+        .main2 ul{
+            float:left;
+            margin-top:25px;
+        margin-left:30px;}
+       ul li{
+               display: inline-block;
+        }
+        ul li a{
+            color:white;
+            padding:5px 20px;
+            border: 0.5px solid white;
+             text-size-adjust: 20px;
+        }
+        .main2 ul li a{
+            background-color:lightslategray ;
+        }
+        ul li a:hover{
+            background-color: yellowgreen;
+            color:black;
+        }
+        ul li.active a{
+            background-color: yellowgreen;
+            color:white;
+        }
+    </style>
+    </head>
+    <body>
+        <marquee bgcolor="lightyellow" height="54" width="2069" direction="right" loop="10   3" scrollamount="10" ><h1>WELCOME  TO  OUR  TUTORIAL  SITE !</h1></marquee>
+        <hr>
+        
+        <div class="main">
+            <ul> 
+                <li ><a href="Home.html">Home</a></li>
+                
+                <li class="active"><a href="Register.html">Register</a></li>
+                <li><a href="query.html" target="_blank">Query</a></li>
+                
+            </ul>
+        </div>
+    
+        
+        <div class="main2">
+            <ul>
+                <li><a href="htmlIntro.html">HTML</a></li>
+                
+                <li><a href="cssIntro.html">CSS</a></li>
+                <li><a href="javaIntro.html">JAVA</a></li>
+                <li><a href="dsIntro.html">DS</a></li>
+                
+
+
+            </ul>
+        </div>
+        <section>
+        <div class="Rmain">
+            <div class="register">
+                <h1>Register Here !</h1>
+                <form id="register" method="post">
+                    <label>First Name :</label>
+                    <br>
+                    <input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+                    <br><br>
+
+                    <label>Last Name :</label>
+                    <br>
+                    <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+                    <br><br>
+                    <label>Email :</label>
+                    <br>
+                   
+                    <input type="email" name="email" id="name" placeholder="Enter Your Email">
+                    <br> <br>
+                    <label>Password :</label>
+                    <br>
+                   
+                    <input type="password" name="email" id="name" placeholder="Enter Your Password">
+                    <br> <br>
+                    <label>Gender :</label>
+                    <br>
+                    <input type="radio" name="gender" id="male">
+                    &nbsp;
+                    <span id="male">Male</span>
+                    <input type="radio" name="gender" id="female">
+                    &nbsp;
+                    <span id="female">Female</span>
+                    <br><br>
+                    <input type="submit" value="Submit" name="submit" id="submit">
+
+            
+
+                    
+
+                </form>
+
+            </div> 
+
+        </div>
+        </section>
+    </body>
+</html>

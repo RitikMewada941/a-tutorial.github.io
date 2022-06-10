@@ -1,0 +1,136 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(book.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.main ul{
+    float:right;
+    margin-top:25px;
+}
+.main2 ul{
+    float:left;
+    margin-top:25px;
+margin-left:310px;}
+ul li{
+       display: inline-block;
+}
+ul li a{
+    color:white;
+    padding:5px 20px;
+    border: 0.5px solid white;
+     text-size-adjust: 20px;
+}
+.main2 ul li a{
+    background-color:lightslategray ;
+}
+ul li a:hover{
+    background-color: yellowgreen;
+    color:black;
+}
+ul li.active a{
+    background-color: yellowgreen;
+    color:white;
+}
+.title {
+    position:absolute;
+    top:34%;
+    left:36%;
+    color:white;
+    font-size:200%;
+    }
+    .button{
+    left:51%;
+     position:absolute;
+    top:55%;
+    transform: translate(-50%,-50%);
+    }
+    .btn{
+        border:1px solid whitesmoke;
+        padding:10px 30px;
+        color: white ;
+    }
+    .btn:hover{
+    background-color: yellowgreen;
+    color:black;
+   }
+   a.img1 {
+
+    margin-top:800px;
+    position:absolute;
+    text-align:center;
+    
+    margin-right:750px;
+    font-family: calibri;
+     }
+     a.img2{
+        margin-top:800px;
+        position:absolute;
+    text-align:center;
+    
+    margin-left:550px;
+    font-family: calibri;
+       
+     }
+   a.img3{
+    margin-top:1000px;
+    position:absolute;
+    text-align:center;
+    
+    margin-right:750px;
+    font-family: calibri;
+   }
+   a.img4{
+    margin-top:900px;
+    position:absolute;
+    text-align:center;
+   
+    font-family: calibri;
+
+   }
+   .content{
+    position:absolute;
+    width: 50%;
+    padding: 430px;
+    margin:100px auto;
+    font-family: calibri;
+    
+   
+}
+.HTMLbtn{
+    left:46%;
+     position:absolute;
+     display:grid;
+    top:97%;
+    transform: translate(-50%,-50%);
+
+}
+.CSSbtn{
+    left:53%;
+     position:absolute;
+     display:grid;
+    top:126%;
+    transform: translate(-50%,-50%);
+
+}
+.JAVAbtn{
+    left:47%;
+     position:absolute;
+     display:grid;
+    top:155%;
+    transform: translate(-50%,-50%);
+
+}
+.DSbtn{
+    left:53.5%;
+     position:absolute;
+     display:grid;
+    top:180%;
+    transform: translate(-50%,-50%);
+
+}
+     
+     
+
+    
+

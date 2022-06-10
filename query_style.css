@@ -1,0 +1,43 @@
+
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(book.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+}
+.comment-box
+{ top:34%;
+    left:30%;
+    position:absolute;
+    width:600px;
+
+    border:2px solid rgb(175, 147, 147);
+    padding:15px 10px;
+}
+.comment-box h2{
+    font-size:24px;
+    margin-bottom:15px;
+    color:antiquewhite;
+}
+.comment-box textarea{
+    height:150px;
+    width:100%;
+    border:1px;
+    border-bottom: 2px solid grey;
+    margin-bottom:10px;
+}
+.comment-box textarea:focus{
+    border:1px solid black;
+    outline:0;
+}
+.comment-box button{
+    border:0;
+    padding:10px 30px;
+    background: cadetblue;
+    font-size:18px ;
+    font-weight: 500;
+    color:black;
+}
+.comment-box button:hover{
+    background: gray;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Query Page</title>
+         <link rel="stylesheet" href="query_style.css">
+
+         <style type="text/css">
+           
+         
+            .main2 ul{
+                float:left;
+                margin-top:25px;
+            margin-left:30px;}
+            .main ul{
+                float:right;
+                margin-top:25px;
+                margin-left:770px;
+            }
+           ul li{
+                display: inline-block;
+            }
+            ul li a{
+                color:white;
+                padding:5px 20px;
+                border: 0.5px solid white;
+                text-size-adjust: 20px;
+            }
+             ul li a{
+                background-color:lightslategray ;
+            }
+            ul li a:hover{
+                background-color: yellowgreen;
+                color:black;
+            }
+            ul li.active a{
+                background-color: yellowgreen;
+                color:white;
+            }
+    
+            
+            </style>
+         
+    </head>
+    <body  >
+       
+        
+        <hr><hr>
+        <div class="main2">
+            <ul>
+                <li><a href="htmlIntro.html">HTML</a></li>
+                
+                <li><a href="cssIntro.html">CSS </a></li>
+                <li><a href="javaIntro.html">JAVA</a></li>
+                <li><a href="dsIntro.html">DS  </a></li>
+                
+
+
+            </ul>
+        </div>
+        <div class="main">
+            <ul style="float:right">  
+                <li ><a href="Home.html">Home</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li class="active" ><a href="query.html" target="_blank">Query</a></li>
+                
+            </ul>
+        </div>
+   
+        
+        <div class="comment-box">
+            <h2> Write your Query</h2>
+            <form>
+                <textarea placeholder='Add your query'></textarea>
+                
+                    <button type="submit">Submit</button>  
+                    <button>Cancel</button>
+                
+            </form>
+
+        </div>
+ 
+    </body>
+</html>

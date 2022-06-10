@@ -1,0 +1,95 @@
+.Etitle {
+    position:absolute;
+    top:18%;
+    left:36%;
+    color:darkred;
+    font-size:200%;
+    }
+
+    
+
+     
+
+    .ebookImg{
+width: 50%;
+padding: 180px;
+margin:100px auto;
+font-family: calibri;
+
+}
+     a.Eimg1 {
+
+margin-top:50px;
+text-align:center;
+
+
+margin-right:200px;
+font-family: calibri;
+}
+a.Eimg2{
+margin-top:50px;
+
+
+text-align:center;
+
+margin-right:5px;
+font-family: calibri;
+
+}
+a.Eimg3{
+margin-top:100px;
+text-align:center;
+padding-top: 10px;
+display:inline-block;
+margin-right:200px;
+font-family: calibri;
+}
+a.Eimg4{
+margin-top:100px;
+text-align:center;
+display:inline-block;
+padding-top:10px;
+margin-right:10px;
+font-family: calibri;
+
+}
+
+.EjavaBtn{
+left:33%;
+position:absolute;
+display:grid;
+top:95.5%;
+transform: translate(-50%,-50%);
+}
+
+.EwebBtn{
+left:34%;
+position:absolute;
+display:grid;
+top:162.5%;
+transform: translate(-50%,-50%);
+
+    }
+
+
+.EhtmlBtn{
+left:66%;
+position:absolute;
+display:grid;
+top:95.5%;
+transform: translate(-50%,-50%);
+}
+
+
+
+.btn{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border:1px solid brown;
+padding:10px 30px;
+color:darkblue ;
+font-size: 25px;
+}
+.btn:hover{
+background-color: yellowgreen;
+color:black;
+   }
